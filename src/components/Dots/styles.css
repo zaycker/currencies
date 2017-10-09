@@ -1,0 +1,17 @@
+.dots {
+  color: #fff;
+}
+
+.dots__dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0 3px;
+  vertical-align: middle;
+}
+
+.dots__dot_active {
+  background: #fff;
+}

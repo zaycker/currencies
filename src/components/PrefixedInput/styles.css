@@ -1,0 +1,28 @@
+.prefixed-input__input,
+.prefixed-input__sign {
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: #fff;
+  width: 200px;
+  text-align: right;
+}
+
+.prefixed-input__input {
+  position: relative;
+  z-index: 1;
+}
+
+.prefixed-input__sign {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.prefixed-input__label {
+  display: block;
+  position: relative;
+}
